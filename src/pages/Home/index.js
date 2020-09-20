@@ -37,6 +37,10 @@ const index = ({ navigation }) => {
                 onPress={() => navigation.navigate('Text Screen')}
                 title="Text Input"
             />
+            <Button
+                onPress={() => navigation.navigate('Restaurant')}
+                title="Restaurant"
+            />
 
         </View>
     )
